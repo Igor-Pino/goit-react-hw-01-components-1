@@ -1,0 +1,9 @@
+.status {
+  border: 8px solid green;
+  border-radius: 100%;
+}
+
+.status-offline {
+  border: 8px solid red;
+  border-radius: 100%;
+}

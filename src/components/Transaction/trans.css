@@ -1,0 +1,32 @@
+table {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  margin-bottom: 20px;
+}
+thead th {
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  padding: 10px 15px;
+  background: #4eecdf;
+  font-size: 14px;
+}
+tbody td {
+  text-align: left;
+
+  padding: 10px 15px;
+  font-size: 14px;
+  color: rgb(133, 124, 124);
+  vertical-align: top;
+  text-align: center;
+}
+thead tr th:first-child,
+tbody tr td:first-child {
+  border-left: none;
+}
+
+tbody tr:nth-child(even) {
+  background: #f3f3f3;
+}
